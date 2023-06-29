@@ -1,0 +1,30 @@
+File Scanning
+Signature-Based Detection
+Heuristic Analysis - based on file characteristics, such as file size, file type, code patterns, and unusual behavior.
+Real-Time Monitoring
+Quarantine and Removal
+
+firstly, it will get md5 hash of all the file in the system and search for hash online if any suspecious file is found it will prompt for user to delete the file or not. This will run one time.
+after that real time monitoring will this will start where it will use different technique such as yara, file characteristics, such as file size, file type, code patterns, and unusual behavior to find malicious file aswell as procees as they are accessed or executed on the system. 
+every thing will be logged and reported.
+
+break down
+
+Step 1: Initial Scan
+
+Implement a function to iterate through all files in the system and calculate their MD5 hashes.
+Use the obtained hashes to search an online database or known hash repositories for matches with known malicious files.
+If a suspicious file is found, prompt the user for confirmation before taking any action, such as deleting the file.
+Log the scan results and actions taken.
+
+Step 2: Real-Time Monitoring
+Develop a mechanism to monitor file and process activities in real time.
+Implement YARA rules to detect patterns or signatures of known malware.
+Analyze file characteristics such as file size, file type, code patterns, and unusual behavior to identify potentially malicious files.
+Monitor executed processes and check for any suspicious behavior.
+Prompt the user for confirmation or take automated actions (e.g., quarantining, deleting) based on the severity of the detected threat.
+Log the detected threats and actions taken.
+
+Step 3: Logging and Reporting
+Create a logging mechanism to record all scan results, detected threats, and actions taken.
+Include relevant information such as timestamps, file paths, hashes, detection techniques used, and outcomes.
