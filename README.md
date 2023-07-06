@@ -1,9 +1,9 @@
-# Antivirious_in_python
-## This is a sample antivirious made by anish.
-`this antivirious takes three input.`
-1. Scan full system.
-2. Scan the give directory.
-3. Live manitering the given directory.
+# Antivirus_in_python
+## This is a sample antivirus made by anish.
+`This antivirus takes three inputs.`
+1. Scan the full system.
+2. Scan the given directory.
+3. Live monitoring of the given directory.
 
 ## What does it do?
 The system includes a database with MD5 hashes of known malware. It functions by computing each file's hash and comparing it to the database. When a suspicious file is found, the user is asked if they want to delete it. The system also makes use of a sizable collection of modern and sophisticated YARA rules, sourced from https://github.com/Yara-Rules/rules and numbering over 1000 rules. It checks files for compliance with these rules and alerts the user to any suspicious findings so they can choose whether to delete the file or not. 
