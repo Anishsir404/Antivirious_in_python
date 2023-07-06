@@ -11,7 +11,7 @@ Furthermore, the system uses watchdog library functionality for live monitoring,
 
 ## How to use it.
 ```
-git clone https://github.com/Anishsir404/Antivirious_in_python.git
+git clone https://github.com/Anishsir404/Antivirus_in_python.git
 ```
 ```
 cd Antivirious_in_python
