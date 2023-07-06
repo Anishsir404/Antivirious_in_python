@@ -18,7 +18,7 @@ cd Antivirious_in_python
 git clone https://github.com/Yara-Rules/rules.git
 ```
 ```
-pip -i requirement.txt
+pip -i requirements.txt
 ```
 ```
 python main.py
